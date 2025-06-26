@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
       getPages: [
         GetPage(name: HomeScreen.name, page: () => const HomeScreen()),
         GetPage(name: ProductAddScreen.name, page: () => const ProductAddScreen()),
-        GetPage(name: ProductUpdateScreen.name, page: () => const ProductUpdateScreen()), // ✅ ফিক্সড
+        GetPage(name: ProductUpdateScreen.name, page: () => const ProductUpdateScreen()),
       ],
     );
   }
