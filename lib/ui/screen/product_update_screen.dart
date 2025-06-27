@@ -34,11 +34,11 @@ class _ProductUpdateScreenState extends State<ProductUpdateScreen> {
   void initState() {
     super.initState();
 
-    // Get.arguments থেকে ডেটা গ্রহণ
+
     productData = Get.arguments;
     id = productData['id'];
 
-    // Controller গুলোতে মান সেট করা
+
     _name.text = productData['name'] ?? '';
     _unitPrice.text = productData['price']?.toString() ?? '';
     _totalPrice.text = productData['totalPrice']?.toString() ?? '';
